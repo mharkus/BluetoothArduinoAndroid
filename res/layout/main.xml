@@ -24,14 +24,14 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#607af6" >
+        android:background="#607af6" android:padding="12dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:padding="12dp"
+            
             android:text="Available Devices"
             android:textColor="#f0f0f0"
             android:textSize="16sp"
@@ -42,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true" style="@android:style/Widget.ProgressBar.Small"  />
     </RelativeLayout>
 
     <ListView

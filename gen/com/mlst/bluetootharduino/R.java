@@ -12,8 +12,9 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
-        public static final int tilebg=0x7f020001;
-        public static final int tiny_grid=0x7f020002;
+        public static final int textured_stripes=0x7f020001;
+        public static final int tilebg=0x7f020002;
+        public static final int tiny_grid=0x7f020003;
     }
     public static final class id {
         public static final int allGreen=0x7f050007;
